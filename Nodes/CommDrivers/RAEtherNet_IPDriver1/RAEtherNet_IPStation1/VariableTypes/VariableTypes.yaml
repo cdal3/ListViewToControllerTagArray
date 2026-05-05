@@ -1,0 +1,41 @@
+Name: VariableTypes
+Type: FolderType
+Children:
+- Name: MyUDT
+  Id: g=86f3c81595ccfca1da8e37835428192b
+  Supertype: RAEtherNetIPTagStructure
+  DataType: MyUDT
+  ValueRank: Any
+  Children:
+  - Name: MySTRING
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "MySTRING"
+  - Name: MyDINT
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "MyDINT"
+  - Name: MyREAL
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "MyREAL"
+  - Name: MyBOOL
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "MyBOOL"

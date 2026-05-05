@@ -1,0 +1,53 @@
+Project:
+ Name: ListViewToControllerTagArray
+ GUID: 5284dd2b6a6eae9bb9c63ca6df31f22c
+ ProjectNamespaceIndex: 9
+ DisplayName: ''
+ Description: ''
+ Company: ''
+ Copyright: ''
+ FormatVersion: 1
+ ProductVersion: 1.7
+ CoreVersion: 5.0
+ Dependencies:
+  2:
+   Uri: 'urn:FTOptix:RAEtherNetIP'
+   Module: FTOptix.RAEtherNetIP
+   Version: 7.0
+  3:
+   Uri: 'urn:FTOptix:CommunicationDriver'
+   Module: FTOptix.CommunicationDriver
+   Version: 3.0
+  4:
+   Uri: 'urn:FTOptix:CoreBase'
+   Module: FTOptix.CoreBase
+   Version: 6.1
+  5:
+   Uri: 'urn:FTOptix:UI'
+   Module: FTOptix.UI
+   Version: 21.2
+  6:
+   Uri: 'urn:FTOptix:Retentivity'
+   Module: FTOptix.Retentivity
+   Version: 1.0
+  7:
+   Uri: 'urn:FTOptix:HMIProject'
+   Module: FTOptix.HMIProject
+   Version: 9.0
+  8:
+   Uri: 'urn:FTOptix:NativeUI'
+   Module: FTOptix.NativeUI
+   Version: 3.3
+ Statistics:
+  TotalNodeCount: 361
+  Objects: 94
+  ObjectTypes: 3
+  Variables: 262
+  VariableTypes: 1
+  DataTypes: 1
+  Methods: 0
+  References: 9
+  ReferenceTypes: 0
+  Files: 28
+ Nodes:
+ - File: Nodes/ListViewToControllerTagArray.yaml

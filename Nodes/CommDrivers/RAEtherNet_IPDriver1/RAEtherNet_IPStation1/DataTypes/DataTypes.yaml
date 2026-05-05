@@ -1,0 +1,44 @@
+Name: DataTypes
+Type: FolderType
+Children:
+- Class: DataType
+  Name: MyUDT
+  Id: g=823b9d36c6c166f30f03c19d16d545cb
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "MyUDT",
+    "DataType": {
+     "IdType": 2,
+     "Id": "823b9d36c6c166f30f03c19d16d545cb",
+     "Namespace": 9
+    },
+    "Fields": [{
+      "Name": "MySTRING",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "MyDINT",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "MyREAL",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "MyBOOL",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"MyUDT"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding

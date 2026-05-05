@@ -1,0 +1,458 @@
+Name: Controller Tags
+Type: FolderType
+Children:
+- Name: MyUDTArray
+  Id: g=6c0c1a74e407bacb2d022dab5a17f86f
+  Type: MyUDT
+  DataType: MyUDT
+  ValueRank: OneDimension
+  ArrayDimensions: [10]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MyUDTArray"
+  - Name: BlockRead
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: 0
+    Type: MyUDT
+    DataType: MyUDT
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "MyUDTArray[0]"
+    - Name: BlockRead
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: true
+    - Name: MySTRING
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MyUDTArray[0].MySTRING"
+    - Name: MyDINT
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MyUDTArray[0].MyDINT"
+    - Name: MyREAL
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MyUDTArray[0].MyREAL"
+    - Name: MyBOOL
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MyUDTArray[0].MyBOOL"
+  - Name: 1
+    Type: MyUDT
+    DataType: MyUDT
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "MyUDTArray[1]"
+    - Name: BlockRead
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: true
+    - Name: MySTRING
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MyUDTArray[1].MySTRING"
+    - Name: MyDINT
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MyUDTArray[1].MyDINT"
+    - Name: MyREAL
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MyUDTArray[1].MyREAL"
+    - Name: MyBOOL
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MyUDTArray[1].MyBOOL"
+  - Name: 2
+    Type: MyUDT
+    DataType: MyUDT
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "MyUDTArray[2]"
+    - Name: BlockRead
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: true
+    - Name: MySTRING
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MyUDTArray[2].MySTRING"
+    - Name: MyDINT
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MyUDTArray[2].MyDINT"
+    - Name: MyREAL
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MyUDTArray[2].MyREAL"
+    - Name: MyBOOL
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MyUDTArray[2].MyBOOL"
+  - Name: 3
+    Type: MyUDT
+    DataType: MyUDT
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "MyUDTArray[3]"
+    - Name: BlockRead
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: true
+    - Name: MySTRING
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MyUDTArray[3].MySTRING"
+    - Name: MyDINT
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MyUDTArray[3].MyDINT"
+    - Name: MyREAL
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MyUDTArray[3].MyREAL"
+    - Name: MyBOOL
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MyUDTArray[3].MyBOOL"
+  - Name: 4
+    Type: MyUDT
+    DataType: MyUDT
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "MyUDTArray[4]"
+    - Name: BlockRead
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: true
+    - Name: MySTRING
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MyUDTArray[4].MySTRING"
+    - Name: MyDINT
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MyUDTArray[4].MyDINT"
+    - Name: MyREAL
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MyUDTArray[4].MyREAL"
+    - Name: MyBOOL
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MyUDTArray[4].MyBOOL"
+  - Name: 5
+    Type: MyUDT
+    DataType: MyUDT
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "MyUDTArray[5]"
+    - Name: BlockRead
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: true
+    - Name: MySTRING
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MyUDTArray[5].MySTRING"
+    - Name: MyDINT
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MyUDTArray[5].MyDINT"
+    - Name: MyREAL
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MyUDTArray[5].MyREAL"
+    - Name: MyBOOL
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MyUDTArray[5].MyBOOL"
+  - Name: 6
+    Type: MyUDT
+    DataType: MyUDT
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "MyUDTArray[6]"
+    - Name: BlockRead
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: true
+    - Name: MySTRING
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MyUDTArray[6].MySTRING"
+    - Name: MyDINT
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MyUDTArray[6].MyDINT"
+    - Name: MyREAL
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MyUDTArray[6].MyREAL"
+    - Name: MyBOOL
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MyUDTArray[6].MyBOOL"
+  - Name: 7
+    Type: MyUDT
+    DataType: MyUDT
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "MyUDTArray[7]"
+    - Name: BlockRead
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: true
+    - Name: MySTRING
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MyUDTArray[7].MySTRING"
+    - Name: MyDINT
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MyUDTArray[7].MyDINT"
+    - Name: MyREAL
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MyUDTArray[7].MyREAL"
+    - Name: MyBOOL
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MyUDTArray[7].MyBOOL"
+  - Name: 8
+    Type: MyUDT
+    DataType: MyUDT
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "MyUDTArray[8]"
+    - Name: BlockRead
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: true
+    - Name: MySTRING
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MyUDTArray[8].MySTRING"
+    - Name: MyDINT
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MyUDTArray[8].MyDINT"
+    - Name: MyREAL
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MyUDTArray[8].MyREAL"
+    - Name: MyBOOL
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MyUDTArray[8].MyBOOL"
+  - Name: 9
+    Type: MyUDT
+    DataType: MyUDT
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "MyUDTArray[9]"
+    - Name: BlockRead
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: true
+    - Name: MySTRING
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MyUDTArray[9].MySTRING"
+    - Name: MyDINT
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MyUDTArray[9].MyDINT"
+    - Name: MyREAL
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MyUDTArray[9].MyREAL"
+    - Name: MyBOOL
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MyUDTArray[9].MyBOOL"

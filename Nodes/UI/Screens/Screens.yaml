@@ -1,0 +1,111 @@
+Name: Screens
+Type: ScreensCategoryFolder
+Children:
+- Name: ListViews
+  Id: g=456c1d139cf8e16924c90e41d857e779
+  Supertype: Screen
+  ReferenceType: HasComponent
+  Children:
+  - Name: ListView1
+    Type: ListView
+    Children:
+    - Name: Model
+      Type: NodePointer
+      DataType: NodeId
+      Children:
+      - Name: ItemKind
+        Type: PropertyType
+        DataType: NodeId
+      - Name: Kind
+        Type: PropertyType
+        DataType: NodeId
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../MyUDTPointer@NodeId"
+    - Name: Query
+      Type: BaseDataVariableType
+      DataType: String
+    - Name: SelectorKind
+      Type: BaseDataVariableType
+      DataType: ListViewSelectorTypeEnum
+      AccessLevel: Read
+    - Name: TypeSelectors
+      Type: BaseObjectType
+      Children:
+      - Name: TypeSelector1
+        Type: TypeSelector
+        Children:
+        - Name: Template
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/ListViewToControllerTagArray/UI/ListViewRow"
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container/Panel/ListViewRow"
+        - Name: Type
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Types/VariableTypes/BaseVariableType/BaseDataVariableType"
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+    - Class: Reference
+      Target: ns=5;i=1457
+      Direction: Forward
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 300.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 300.0
+    - Name: RowHeight
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 100.0
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 8.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 8.0
+    - Name: RightMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 8.0
+    - Name: BottomMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 8.0
+    - Name: MyUDTPointer
+      Type: NodePointer
+      DataType: NodeId
+      Value: "/Objects/ListViewToControllerTagArray/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/MyUDTArray"
+      Children:
+      - Name: Kind
+        Type: PropertyType
+        DataType: NodeId
