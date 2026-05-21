@@ -1,4 +1,5 @@
 Name: DataTypes
+Id: g=c2cbd6cfc3a8938a5fb8c6cdb4da47f8
 Type: FolderType
 Children:
 - Class: DataType
@@ -38,6 +39,7 @@ Children:
   DisplayName: {"LocaleId":"","Text":"MyUDT"}
   Children:
   - Name: ns=0;Default Binary
+    Id: g=96bfc88efe7c42f06859a9bfb3370bd2
     Type: DataTypeEncodingType
     ModellingRule: None
     DisplayName: {"LocaleId":"","Text":"Default Binary"}

@@ -1,51 +1,64 @@
 Name: ListViewToControllerTagArray
+Id: g=fa052667b986d68ff0590f4113d6d6ef
 Type: ProjectFolder
 Children:
 - Name: Localization
+  Id: g=ea995d283d061a52198c3db0f955b440
   Type: PropertyGroup
   Children:
   - Name: Locales
+    Id: g=a335436ccf4c2b623c54d566f1ecfe08
     Type: BaseDataVariableType
     DataType: LocaleId
     ValueRank: OneDimension
     ArrayDimensions: [0]
     Value: ["en-US"]
   - Name: LocaleFallbackList
+    Id: g=85f80b771e2c362b9e5098baf2015668
     Type: BaseDataVariableType
     DataType: LocaleId
     ValueRank: OneDimension
     ArrayDimensions: [0]
     Value: ["en-US"]
 - Name: Authentication
+  Id: g=c08fdfd18735aed3860ac3b82f1bd6d6
   Type: PropertyGroup
   Children:
   - Name: DefaultUserFolder
+    Id: g=27b53cdc02f15db923ee3de61128c2e6
     Type: NodePointer
     DataType: NodeId
     Value: "/Objects/ListViewToControllerTagArray/Security/Users"
     Children:
     - Name: Kind
+      Id: g=f5efe8e29ad7b3994e3472b82d3569eb
       Type: PropertyType
       DataType: NodeId
       Value: "/Types/ObjectTypes/BaseObjectType/FolderType"
 - Name: PasswordPolicy
+  Id: g=4f539bf8c92bf04fb55c895619820410
   Type: PasswordPolicy
   Children:
   - Name: MaximumPasswordAge
+    Id: g=4f731eafb4c1e8d26d444e74ac82b445
     Type: BaseDataVariableType
     DataType: UInt16
   - Name: EnforcePasswordHistory
+    Id: g=fc4dcdbf8b24878b6468df926ee7aae6
     Type: BaseDataVariableType
     DataType: Byte
     Value: 1
   - Name: MinimumPasswordAge
+    Id: g=8865e2b0a1828f0e1fb1d721ad19ce78
     Type: BaseDataVariableType
     DataType: UInt16
   - Name: MinimumPasswordLength
+    Id: g=02fc698576f052d3a5437487504c5885
     Type: BaseDataVariableType
     DataType: Byte
     Value: 8
 - Name: AlarmConfiguration
+  Id: g=5b0de29e8b46d11819576c6b9cd646c4
   Type: PropertyGroup
 - File: UI/UI.yaml
 - File: Model/Model.yaml
@@ -64,4 +77,5 @@ Children:
 - File: Translations/Translations.yaml
 - File: Retentivity/Retentivity.yaml
 - Name: RuntimeOptimization
+  Id: g=54b91dec5e724c5c6d04b9cef2ca09f0
   Type: PropertyGroup

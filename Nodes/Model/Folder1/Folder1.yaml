@@ -1,0 +1,28 @@
+Name: Folder1
+Id: g=77068aee71d59eae55380e9a62491af9
+Type: FolderType
+Children:
+- Name: Variable2
+  Id: g=9d6c2dfd726f525f3ff8ed3056a8efa8
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: Variable3
+  Id: g=f4c5fd9ecec80d95244cfea97257cc8d
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: MyUDTVariable
+  Id: g=7084bdcfe3123f53ca3f15e01a473782
+  Supertype: BaseDataVariableType
+  DataType: MyUDT
+  Value: 
+   {
+    "Type": 22,
+    "Body": {
+     "TypeId": {
+      "IdType": 0,
+      "Id": 0,
+      "Namespace": -1
+     },
+     "Body":    {}
+    }
+   }

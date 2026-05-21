@@ -38,16 +38,20 @@ Project:
    Uri: 'urn:FTOptix:NativeUI'
    Module: FTOptix.NativeUI
    Version: 3.3
+  10:
+   Uri: 'urn:FTOptix:OPCUAServer'
+   Module: FTOptix.OPCUAServer
+   Version: 2.0
  Statistics:
-  TotalNodeCount: 361
-  Objects: 94
+  TotalNodeCount: 376
+  Objects: 98
   ObjectTypes: 3
-  Variables: 262
-  VariableTypes: 1
+  Variables: 272
+  VariableTypes: 2
   DataTypes: 1
   Methods: 0
   References: 9
   ReferenceTypes: 0
-  Files: 28
+  Files: 29
  Nodes:
  - File: Nodes/ListViewToControllerTagArray.yaml

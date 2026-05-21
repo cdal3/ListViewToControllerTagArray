@@ -1,4 +1,5 @@
 Name: VariableTypes
+Id: g=38bdfe1f81ac810787208a24673a5fc1
 Type: FolderType
 Children:
 - Name: MyUDT
@@ -8,34 +9,42 @@ Children:
   ValueRank: Any
   Children:
   - Name: MySTRING
+    Id: g=c49b6e150865485d4f11923ff2f40192
     Type: RAEtherNetIPTag
     DataType: String
     Children:
     - Name: SymbolName
+      Id: g=934962026fa8c7b7a8c5f850ea901634
       Type: BaseDataVariableType
       DataType: String
       Value: "MySTRING"
   - Name: MyDINT
+    Id: g=dd161ce73f82ea8cdd039024022ba924
     Type: RAEtherNetIPTag
     DataType: Int32
     Children:
     - Name: SymbolName
+      Id: g=24ef4a961defd64d91d8968fc28da37b
       Type: BaseDataVariableType
       DataType: String
       Value: "MyDINT"
   - Name: MyREAL
+    Id: g=c89ad500305cc672b00104394e012048
     Type: RAEtherNetIPTag
     DataType: Float
     Children:
     - Name: SymbolName
+      Id: g=bfbf3a21f09e8a37982b9edbfc093340
       Type: BaseDataVariableType
       DataType: String
       Value: "MyREAL"
   - Name: MyBOOL
+    Id: g=c04d20c23d8b3abaa2c680c8acb40012
     Type: RAEtherNetIPTag
     DataType: Boolean
     Children:
     - Name: SymbolName
+      Id: g=753327a4e8bcf0c3b49b82e1d3dd3aeb
       Type: BaseDataVariableType
       DataType: String
       Value: "MyBOOL"

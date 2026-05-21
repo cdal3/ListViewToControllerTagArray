@@ -1,4 +1,5 @@
 Name: Controller Tags
+Id: g=50cbba5eb584072b238ea3e28fba8685
 Type: FolderType
 Children:
 - Name: MyUDTArray
@@ -9,450 +10,562 @@ Children:
   ArrayDimensions: [10]
   Children:
   - Name: SymbolName
+    Id: g=a6fd68d1a5562377809cdec2db667fa4
     Type: BaseDataVariableType
     DataType: String
     Value: "MyUDTArray"
   - Name: BlockRead
+    Id: g=c642c6912221c49b8d7e2b8028d43b0f
     Type: BaseDataVariableType
     DataType: Boolean
     Value: true
   - Name: 0
+    Id: g=491ebd037e32669ea32aecb420166ec8
     Type: MyUDT
     DataType: MyUDT
     Children:
     - Name: SymbolName
+      Id: g=d66376baeed1cea39207d38069a13af1
       Type: BaseDataVariableType
       DataType: String
       Value: "MyUDTArray[0]"
     - Name: BlockRead
+      Id: g=cbd91058c1820ea0c5a4d33d42371f14
       Type: BaseDataVariableType
       DataType: Boolean
       Value: true
     - Name: MySTRING
+      Id: g=0e6d6f0e5617ab3dc4039bfb1ec8fd46
       Type: RAEtherNetIPTag
       DataType: String
       Children:
       - Name: SymbolName
+        Id: g=77ca950c0f85bb8cc2e1630fb8d105ae
         Type: BaseDataVariableType
         DataType: String
         Value: "MyUDTArray[0].MySTRING"
     - Name: MyDINT
+      Id: g=b92104b2d019f4a129ac936ec6da9dce
       Type: RAEtherNetIPTag
       DataType: Int32
       Children:
       - Name: SymbolName
+        Id: g=8a1b2143567cceb395a86aa6e39f42b9
         Type: BaseDataVariableType
         DataType: String
         Value: "MyUDTArray[0].MyDINT"
     - Name: MyREAL
+      Id: g=de5f158c1e78712b9e3d6b30f0e5bece
       Type: RAEtherNetIPTag
       DataType: Float
       Children:
       - Name: SymbolName
+        Id: g=29829dd6547e51fde655b82960c614f9
         Type: BaseDataVariableType
         DataType: String
         Value: "MyUDTArray[0].MyREAL"
     - Name: MyBOOL
+      Id: g=4ff5a441e23fb747508cb258ee3ae642
       Type: RAEtherNetIPTag
       DataType: Boolean
       Children:
       - Name: SymbolName
+        Id: g=87d428a5e7e72ecbf640bdc38593a12f
         Type: BaseDataVariableType
         DataType: String
         Value: "MyUDTArray[0].MyBOOL"
   - Name: 1
+    Id: g=aea67b2b09471e4dcf2cbd0b577a6188
     Type: MyUDT
     DataType: MyUDT
     Children:
     - Name: SymbolName
+      Id: g=898008c7c9d265faf62646053837db09
       Type: BaseDataVariableType
       DataType: String
       Value: "MyUDTArray[1]"
     - Name: BlockRead
+      Id: g=0a6b2c198b13677e4e218e551f4a4e04
       Type: BaseDataVariableType
       DataType: Boolean
       Value: true
     - Name: MySTRING
+      Id: g=8ae8d51ea5eb66f93f28c1ed256ad898
       Type: RAEtherNetIPTag
       DataType: String
       Children:
       - Name: SymbolName
+        Id: g=27801b16003042e5bd9de025aaa650b7
         Type: BaseDataVariableType
         DataType: String
         Value: "MyUDTArray[1].MySTRING"
     - Name: MyDINT
+      Id: g=3d0aa984203e2eb395ba88c60a8782cf
       Type: RAEtherNetIPTag
       DataType: Int32
       Children:
       - Name: SymbolName
+        Id: g=c0d6990f42f39f9a3b89d6d5a77d6239
         Type: BaseDataVariableType
         DataType: String
         Value: "MyUDTArray[1].MyDINT"
     - Name: MyREAL
+      Id: g=2a08fcb87ed960f742e007ab53a32019
       Type: RAEtherNetIPTag
       DataType: Float
       Children:
       - Name: SymbolName
+        Id: g=b8b38cc8b8d1171ce0f83dc1276efe61
         Type: BaseDataVariableType
         DataType: String
         Value: "MyUDTArray[1].MyREAL"
     - Name: MyBOOL
+      Id: g=26080d6773d376ac7c83cf668b230cd1
       Type: RAEtherNetIPTag
       DataType: Boolean
       Children:
       - Name: SymbolName
+        Id: g=3f23017cd3b9f7f46042c6c6b6b4ab05
         Type: BaseDataVariableType
         DataType: String
         Value: "MyUDTArray[1].MyBOOL"
   - Name: 2
+    Id: g=3f614dd4540ec53fc6c361254fa7e101
     Type: MyUDT
     DataType: MyUDT
     Children:
     - Name: SymbolName
+      Id: g=a2e417694c63b330dd41bde03cc64ab3
       Type: BaseDataVariableType
       DataType: String
       Value: "MyUDTArray[2]"
     - Name: BlockRead
+      Id: g=08cdccd945bd6cc5fb44ebcfdb2ed57b
       Type: BaseDataVariableType
       DataType: Boolean
       Value: true
     - Name: MySTRING
+      Id: g=d06dee7768297102345b40ee82e0c083
       Type: RAEtherNetIPTag
       DataType: String
       Children:
       - Name: SymbolName
+        Id: g=8164f2f0e83a4fb1e5ed89eac95b002d
         Type: BaseDataVariableType
         DataType: String
         Value: "MyUDTArray[2].MySTRING"
     - Name: MyDINT
+      Id: g=5fe2a09410208b0e404d2177368c917c
       Type: RAEtherNetIPTag
       DataType: Int32
       Children:
       - Name: SymbolName
+        Id: g=4bd5983da69b7024948c9d2fd20a3e62
         Type: BaseDataVariableType
         DataType: String
         Value: "MyUDTArray[2].MyDINT"
     - Name: MyREAL
+      Id: g=61ea3281e23790fbf7755eb3833e203b
       Type: RAEtherNetIPTag
       DataType: Float
       Children:
       - Name: SymbolName
+        Id: g=0ed6ce6d0e0a99d944ffd23f04101860
         Type: BaseDataVariableType
         DataType: String
         Value: "MyUDTArray[2].MyREAL"
     - Name: MyBOOL
+      Id: g=6af027a6e67131a8c35922baea24bca0
       Type: RAEtherNetIPTag
       DataType: Boolean
       Children:
       - Name: SymbolName
+        Id: g=d0eee17e409a0b1a438e1f3e2bd46510
         Type: BaseDataVariableType
         DataType: String
         Value: "MyUDTArray[2].MyBOOL"
   - Name: 3
+    Id: g=210ba30fd99ba302aa23068d7dcb9592
     Type: MyUDT
     DataType: MyUDT
     Children:
     - Name: SymbolName
+      Id: g=0e53f9f2dcb91c73296338714b9f76e4
       Type: BaseDataVariableType
       DataType: String
       Value: "MyUDTArray[3]"
     - Name: BlockRead
+      Id: g=f41e041fe384c0f6ed8dd6e4a1734c60
       Type: BaseDataVariableType
       DataType: Boolean
       Value: true
     - Name: MySTRING
+      Id: g=93a5d0f8e095d886e9361d2ad3d96f1c
       Type: RAEtherNetIPTag
       DataType: String
       Children:
       - Name: SymbolName
+        Id: g=8206be0e5693a74059c652a80dfb17cf
         Type: BaseDataVariableType
         DataType: String
         Value: "MyUDTArray[3].MySTRING"
     - Name: MyDINT
+      Id: g=f55d69e55ef4830afd4b1b32f9565a78
       Type: RAEtherNetIPTag
       DataType: Int32
       Children:
       - Name: SymbolName
+        Id: g=068f684615280d7a2da40ef0f5562e34
         Type: BaseDataVariableType
         DataType: String
         Value: "MyUDTArray[3].MyDINT"
     - Name: MyREAL
+      Id: g=a384eb04a96445e1a76a299532d5da4a
       Type: RAEtherNetIPTag
       DataType: Float
       Children:
       - Name: SymbolName
+        Id: g=09566ea7a24801aa2295fcda6e50041d
         Type: BaseDataVariableType
         DataType: String
         Value: "MyUDTArray[3].MyREAL"
     - Name: MyBOOL
+      Id: g=723e6cef915c0142e99b26f551cefda3
       Type: RAEtherNetIPTag
       DataType: Boolean
       Children:
       - Name: SymbolName
+        Id: g=5a807fb798ff24832990685689cfa47a
         Type: BaseDataVariableType
         DataType: String
         Value: "MyUDTArray[3].MyBOOL"
   - Name: 4
+    Id: g=259a0b4dec46fe19436a1762350ad69b
     Type: MyUDT
     DataType: MyUDT
     Children:
     - Name: SymbolName
+      Id: g=671c6244bccea9212bef13a000e23338
       Type: BaseDataVariableType
       DataType: String
       Value: "MyUDTArray[4]"
     - Name: BlockRead
+      Id: g=3c26d02a2630df10012b4b9ecf43f5ce
       Type: BaseDataVariableType
       DataType: Boolean
       Value: true
     - Name: MySTRING
+      Id: g=63450e9f19a01cf46f4f3be98d7ea9ee
       Type: RAEtherNetIPTag
       DataType: String
       Children:
       - Name: SymbolName
+        Id: g=26d63bd49a3bd926412f890b252a2ff1
         Type: BaseDataVariableType
         DataType: String
         Value: "MyUDTArray[4].MySTRING"
     - Name: MyDINT
+      Id: g=fb5148d0c478e543e8f00b7a046b554b
       Type: RAEtherNetIPTag
       DataType: Int32
       Children:
       - Name: SymbolName
+        Id: g=029ae4aaa8b488ba05f6bcfa0b821063
         Type: BaseDataVariableType
         DataType: String
         Value: "MyUDTArray[4].MyDINT"
     - Name: MyREAL
+      Id: g=ac7721e806f94bf5046aec5a480856c7
       Type: RAEtherNetIPTag
       DataType: Float
       Children:
       - Name: SymbolName
+        Id: g=450ce5730b6f29e20219a7e9a9c37113
         Type: BaseDataVariableType
         DataType: String
         Value: "MyUDTArray[4].MyREAL"
     - Name: MyBOOL
+      Id: g=e5611349de0320f9d9234053eea74837
       Type: RAEtherNetIPTag
       DataType: Boolean
       Children:
       - Name: SymbolName
+        Id: g=bf750e4dff31fb2a95fbcb4a9be9c934
         Type: BaseDataVariableType
         DataType: String
         Value: "MyUDTArray[4].MyBOOL"
   - Name: 5
+    Id: g=b7ed474bfdbe3f61bf695ba916c286f8
     Type: MyUDT
     DataType: MyUDT
     Children:
     - Name: SymbolName
+      Id: g=96b578e67cd135703f3830b531709c78
       Type: BaseDataVariableType
       DataType: String
       Value: "MyUDTArray[5]"
     - Name: BlockRead
+      Id: g=30ace22fabdb08c1e7ce20e5cf883886
       Type: BaseDataVariableType
       DataType: Boolean
       Value: true
     - Name: MySTRING
+      Id: g=ec3d3621f59cd6eb075c4945d0a11692
       Type: RAEtherNetIPTag
       DataType: String
       Children:
       - Name: SymbolName
+        Id: g=9c38c41ebba3cbbe07e3328128429471
         Type: BaseDataVariableType
         DataType: String
         Value: "MyUDTArray[5].MySTRING"
     - Name: MyDINT
+      Id: g=f3cf87a1d63576281040535a9fe6c63f
       Type: RAEtherNetIPTag
       DataType: Int32
       Children:
       - Name: SymbolName
+        Id: g=7f1e436fa790471460bc1eb56ba32fc7
         Type: BaseDataVariableType
         DataType: String
         Value: "MyUDTArray[5].MyDINT"
     - Name: MyREAL
+      Id: g=e04c2890e8957ef5118aacbdf52cb885
       Type: RAEtherNetIPTag
       DataType: Float
       Children:
       - Name: SymbolName
+        Id: g=bf5288098299cc39127eab6faf728dd9
         Type: BaseDataVariableType
         DataType: String
         Value: "MyUDTArray[5].MyREAL"
     - Name: MyBOOL
+      Id: g=dd6b699183479470b94566a0cc6f28e1
       Type: RAEtherNetIPTag
       DataType: Boolean
       Children:
       - Name: SymbolName
+        Id: g=01e7423636ecb41a6c80d3cefd94abfd
         Type: BaseDataVariableType
         DataType: String
         Value: "MyUDTArray[5].MyBOOL"
   - Name: 6
+    Id: g=22a7366a4e700ce71450c70c18b0a4ef
     Type: MyUDT
     DataType: MyUDT
     Children:
     - Name: SymbolName
+      Id: g=a09ee7bb3148be012f843c491b3d4955
       Type: BaseDataVariableType
       DataType: String
       Value: "MyUDTArray[6]"
     - Name: BlockRead
+      Id: g=9da2f5f74ef60be01b45777d543dba3c
       Type: BaseDataVariableType
       DataType: Boolean
       Value: true
     - Name: MySTRING
+      Id: g=32a064a736f3c00ee46ef1d378d1ab8d
       Type: RAEtherNetIPTag
       DataType: String
       Children:
       - Name: SymbolName
+        Id: g=e2129107df31218a31e935201bfd9143
         Type: BaseDataVariableType
         DataType: String
         Value: "MyUDTArray[6].MySTRING"
     - Name: MyDINT
+      Id: g=4b3dd9aa2489dc213a26a12f4cdbfcf5
       Type: RAEtherNetIPTag
       DataType: Int32
       Children:
       - Name: SymbolName
+        Id: g=ddc8eadbda9dab4278686a728c8e04fe
         Type: BaseDataVariableType
         DataType: String
         Value: "MyUDTArray[6].MyDINT"
     - Name: MyREAL
+      Id: g=2fd4c170e07bad88120a482d0a4c8d3b
       Type: RAEtherNetIPTag
       DataType: Float
       Children:
       - Name: SymbolName
+        Id: g=634696190cc7780f9f6db935b217f754
         Type: BaseDataVariableType
         DataType: String
         Value: "MyUDTArray[6].MyREAL"
     - Name: MyBOOL
+      Id: g=1fc4751a43f868d6dc5c681babc06915
       Type: RAEtherNetIPTag
       DataType: Boolean
       Children:
       - Name: SymbolName
+        Id: g=4e12942598649f5621649b48d02a2511
         Type: BaseDataVariableType
         DataType: String
         Value: "MyUDTArray[6].MyBOOL"
   - Name: 7
+    Id: g=79875ed6449052ce2e4fdffbf0468355
     Type: MyUDT
     DataType: MyUDT
     Children:
     - Name: SymbolName
+      Id: g=22c81306b752669892abff32f39475d8
       Type: BaseDataVariableType
       DataType: String
       Value: "MyUDTArray[7]"
     - Name: BlockRead
+      Id: g=b545b19ada0e71e802bb91c5feec4f38
       Type: BaseDataVariableType
       DataType: Boolean
       Value: true
     - Name: MySTRING
+      Id: g=75906afb774e5de1aacec53bd031451d
       Type: RAEtherNetIPTag
       DataType: String
       Children:
       - Name: SymbolName
+        Id: g=19f0f0c92309a1043a6cafaf58380eec
         Type: BaseDataVariableType
         DataType: String
         Value: "MyUDTArray[7].MySTRING"
     - Name: MyDINT
+      Id: g=91e759d4415c6ac7ca4ffe0f1de5f769
       Type: RAEtherNetIPTag
       DataType: Int32
       Children:
       - Name: SymbolName
+        Id: g=968a7b4ba0b7f8f264b4b9903686d727
         Type: BaseDataVariableType
         DataType: String
         Value: "MyUDTArray[7].MyDINT"
     - Name: MyREAL
+      Id: g=f1d96cc7c2535a99b9b5f6623a453e58
       Type: RAEtherNetIPTag
       DataType: Float
       Children:
       - Name: SymbolName
+        Id: g=d322faa923ec4ad70322c126e0e61627
         Type: BaseDataVariableType
         DataType: String
         Value: "MyUDTArray[7].MyREAL"
     - Name: MyBOOL
+      Id: g=f8edc153dede0a40d22de72d55b500c0
       Type: RAEtherNetIPTag
       DataType: Boolean
       Children:
       - Name: SymbolName
+        Id: g=ef722ebde3d983381a91bb2c06a1430b
         Type: BaseDataVariableType
         DataType: String
         Value: "MyUDTArray[7].MyBOOL"
   - Name: 8
+    Id: g=bc677cfeccaf22ee986c5aea92adec63
     Type: MyUDT
     DataType: MyUDT
     Children:
     - Name: SymbolName
+      Id: g=3ea3e7de6a2c737f06942e92b7a10e8f
       Type: BaseDataVariableType
       DataType: String
       Value: "MyUDTArray[8]"
     - Name: BlockRead
+      Id: g=8253b47ac8ffe360435610ce3ce5d058
       Type: BaseDataVariableType
       DataType: Boolean
       Value: true
     - Name: MySTRING
+      Id: g=ab8f14336946c19e7c06fd1fdaa10106
       Type: RAEtherNetIPTag
       DataType: String
       Children:
       - Name: SymbolName
+        Id: g=1525ad75143fc0011bb0e61448d6140d
         Type: BaseDataVariableType
         DataType: String
         Value: "MyUDTArray[8].MySTRING"
     - Name: MyDINT
+      Id: g=bec4e51b976121c33b5ffb22c180a02c
       Type: RAEtherNetIPTag
       DataType: Int32
       Children:
       - Name: SymbolName
+        Id: g=446c59637e7f306f7ff3806ef99d08d8
         Type: BaseDataVariableType
         DataType: String
         Value: "MyUDTArray[8].MyDINT"
     - Name: MyREAL
+      Id: g=7ce0009ccc54f5479c04e350213f31b8
       Type: RAEtherNetIPTag
       DataType: Float
       Children:
       - Name: SymbolName
+        Id: g=b7d4b76e72354c3fe5d9387675f6d1dc
         Type: BaseDataVariableType
         DataType: String
         Value: "MyUDTArray[8].MyREAL"
     - Name: MyBOOL
+      Id: g=78e6d6bc3b99e625cd4f6605fcb82325
       Type: RAEtherNetIPTag
       DataType: Boolean
       Children:
       - Name: SymbolName
+        Id: g=7dbf777ce4078388eee9cccb9cb64c2d
         Type: BaseDataVariableType
         DataType: String
         Value: "MyUDTArray[8].MyBOOL"
   - Name: 9
+    Id: g=f9c506bb6ab15ad1f4f0e6dc87e39969
     Type: MyUDT
     DataType: MyUDT
     Children:
     - Name: SymbolName
+      Id: g=110d7e85acd10ef0c21eabc7f4f33b1b
       Type: BaseDataVariableType
       DataType: String
       Value: "MyUDTArray[9]"
     - Name: BlockRead
+      Id: g=c1f83fb4e41bd6acfee449882376d5af
       Type: BaseDataVariableType
       DataType: Boolean
       Value: true
     - Name: MySTRING
+      Id: g=bd88f348bb497a24cdc77cf9006ef075
       Type: RAEtherNetIPTag
       DataType: String
       Children:
       - Name: SymbolName
+        Id: g=a950a625c75068ddec1f56f2187f4e79
         Type: BaseDataVariableType
         DataType: String
         Value: "MyUDTArray[9].MySTRING"
     - Name: MyDINT
+      Id: g=60e172a9f2b19e4c40e3458a5f43b65d
       Type: RAEtherNetIPTag
       DataType: Int32
       Children:
       - Name: SymbolName
+        Id: g=4a8e378bed873af60bce3ac278bb751d
         Type: BaseDataVariableType
         DataType: String
         Value: "MyUDTArray[9].MyDINT"
     - Name: MyREAL
+      Id: g=b354353437398ed714c64376b026b2e5
       Type: RAEtherNetIPTag
       DataType: Float
       Children:
       - Name: SymbolName
+        Id: g=a08f80c80aaef84dadbcb53b8fdeaa79
         Type: BaseDataVariableType
         DataType: String
         Value: "MyUDTArray[9].MyREAL"
     - Name: MyBOOL
+      Id: g=6aa9d86e81d68b4d02a155d13b77caaa
       Type: RAEtherNetIPTag
       DataType: Boolean
       Children:
       - Name: SymbolName
+        Id: g=daed6481079320b1f65a847e6c1ac016
         Type: BaseDataVariableType
         DataType: String
         Value: "MyUDTArray[9].MyBOOL"
